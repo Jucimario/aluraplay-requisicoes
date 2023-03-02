@@ -83,14 +83,20 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
-    }
-    ,
+    },
     {
       "titulo": "Guia de Carreira PHP | #HipstersPontoTube",
       "descricao": "2 mil visualizações",
       "url": "https://www.youtube.com/embed/ETohL_o3SEI",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 13
+    },
+    {
+      "titulo": "Apache Spark: Datasets com Java | #AluraMais",
+      "descricao": "3 mil visualizações",
+      "url": "https://www.youtube.com/embed/KADh1Rq725o",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 14
     }
   ]
 }
