@@ -17,6 +17,10 @@ async function criarVideo(titulo, descricao, url, imagem) {
         })
     });
 
+    if (!conexao.ok) {
+        throw new Error('Não foi possivel criar o video');
+    }
+
     const json = await conexao.json();
     return json;
 }
@@ -27,7 +31,8 @@ async function buscaVideos(busca) {
     return json;
 };
 
-export const conectaApi = { listaVideos, 
-                            criarVideo,
-                            buscaVideos
-                        };
+export const conectaApi = {
+    listaVideos,
+    criarVideo,
+    buscaVideos
+};
